@@ -24,7 +24,7 @@
 -   (1) 建立 `config.env`。 (可以複製 `example.env`)
 -   (2) 執行 `npm install`。
 -   (3) 依照你的環境去執行下方的程式碼。
--   (4) 運行swagger-doc。(http://localhost:3000/api-doc/)。
+-   (4) 運行swagger-doc:http://localhost:3000/api-doc。
 
 ```
 //開發環境
