@@ -11,7 +11,7 @@
 同時，我們也希望讓使用者感受到自己像超人一樣有能力去幫助別人解決問題，實現自我價值的提升。<br>
 
 ## 網站連結
-[線上環境](https://superhandy-frontend.zeabur.app/)
+[SuperHandy](https://superhandy-frontend.zeabur.app/)
 
 ## 網站技術
 本專案採前後端分離，前端採用 Vue 搭配 Nuxt3 框架開發，後端採用 NodeJs 搭配 Mongo DB。
