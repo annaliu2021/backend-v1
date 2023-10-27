@@ -1,9 +1,6 @@
+
 <p align="center">
- <a href="./README.zh-TW.md"> 繁體中文</a>
-</p>
-  
-<p align="center">
-  北三組共同開發<br></a>
+  六角NodeJS課程-北三組共同開發<br></a>
 <br>
 
 </p>
