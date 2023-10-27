@@ -1,6 +1,5 @@
 <p align="center">
- <a href="./README.zh-TW.md"> 繁體中文
-  </a>
+ <a href="./README.zh-TW.md"> 繁體中文</a>
 </p>
   
 <p align="center">
@@ -15,7 +14,7 @@
 ## 網站連結
 [線上環境](https://superhandy-frontend.zeabur.app/)
 
-## 系統架構圖
+## 網站技術
 本專案採前後端分離，前端採用 Vue 搭配 Nuxt3 框架開發，後端採用 NodeJs 搭配 Mongo DB。
 <img src="./image/system-structure.png">
 
