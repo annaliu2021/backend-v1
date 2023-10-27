@@ -1,73 +1,40 @@
 <p align="center">
-  <a href="./README.md"> English </a> | <a href="./README.zh-TW.md"> 繁體中文
-  </a>
+ <a href="./README.zh-TW.md"> 繁體中文</a>
 </p>
   
 <p align="center">
-  Developed by Taipei Group 3<br></a>
+  北三組共同開發<br></a>
 <br>
 
 </p>
 
-# SuperHandy-backend
+## 網站理念
+「讓您在生活中擁有超人的力量」。這個理念代表著我們的使命是提供一個平台，讓使用者可以輕鬆地找到需要幫助的任務。同時，我們也希望讓使用者感受到自己像超人一樣有能力去幫助別人解決問題，實現自我價值的提升。
 
-"Our mission is to empower individuals with superhuman abilities in their daily lives. This philosophy represents our commitment to providing a platform that makes it easy for users to find tasks they need help with, while also inspiring them to feel like superheroes who have the power to help others and increase their own self-worth."
+## 網站連結
+[線上環境](https://superhandy-frontend.zeabur.app/)
 
-## Preview
-[Launch Live Preview](https://superhandy-frontend.zeabur.app/)
-
-<img src="./image/home.png">
-
-## System Architecture
-This project adopts a frontend-backend separation approach. The frontend is developed using Vue.js with the Nuxt.js framework, while the backend is built with Node.js and MongoDB.
-
-You can check more [Frontend-Repo](https://github.com/erik1110/SuperHandy-frontend).
-
-
+## 網站技術
+本專案採前後端分離，前端採用 Vue 搭配 Nuxt3 框架開發，後端採用 NodeJs 搭配 Mongo DB。
 <img src="./image/system-structure.png">
 
-## Special Features
-1. Map GPS location search
-<img src="./image/maps.png">
+## 網站地圖
 
-2. Chat room function
-<img src="./image/chat.png">
+## 快速開始
 
-3. Skill rating system
-<img src="./image/rating.png">
-
-4. Provide value-added services for members' points
-<img src="./image/points.png">
-
-## Other Features
-1. Find Tasks
-<img src="./image/find-tasks.png">
-
-2. Tasks Management
-<img src="./image/tasks-management.png">
-
-3. Notifications
-<img src="./image/notifications.png">
-
-4. Transaction
-<img src="./image/save-money.png" width=400px height=200px>
-<img src="./image/transaction.png">
-
-## Getting Started
-
--   (1) Create the `config.env`. (You can get copy from `example.env`)
--   (2) Run the `npm install`.
--   (3) Depends on your environment and follow the script below.
--   (4) You can get [swagger-doc](http://localhost:3000/api-doc/) on 3000 port.
+-   (1) 建立 `config.env`。 (可以複製 `example.env`)
+-   (2) 執行 `npm install`。
+-   (3) 依照你的環境去執行下方的程式碼。
+-   (4) 可以在 3000 port 看到 [swagger-doc](http://localhost:3000/api-doc/)。
 
 ```
-// development
+//開發環境
 npm run dev
 
-// production
+//正式機環境
 npm run prod
 
-// swagger docs
+//Swagger開發文件
 npm run swagger
 
 ```
