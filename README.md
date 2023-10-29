@@ -9,8 +9,8 @@
 「讓您在生活中擁有超人的力量」。這個理念代表著我們的使命是提供一個平台，讓使用者可以輕鬆地找到需要幫助的任務。同時，我們也希望讓使用者感受到自己像超人一樣有能力去幫助別人解決問題，實現自我價值的提升。
 
 ## 網站連結
-[首頁](https://superhandy-frontend.zeabur.app/)
-[API文件](https://superhandy-backend-v1.onrender.com/api-doc/)
+[首頁](https://sh-v1.onrender.com/)
+[API文件](https://sh-api-v1.onrender.com/api-doc/)
 
 
 ## 網站技術
