@@ -83,11 +83,12 @@ const tasks = {
             return next(appError(400, '40211', `幫手幣不足： ${user.helperCoin}`));
         }
         const geocodingResult = await geocoding(address);
+        console.log("address=" + address);
         if (geocodingResult.status !== 'OK') {
             return next(appError(400, '40400', '找不到該地址'));
         }
         const currentDate = Date.now();
-        const plan = await Plan.findOne({title: exposurePlan}, { _id: 0, title: 1, price: 1, expireDay: 1, isUrgent: 1 });
+        const plan = await Plan.findOne({ title: exposurePlan }, { _id: 0, title: 1, price: 1, expireDay: 1, isUrgent: 1 });
         const expiredAt = new Date(currentDate + plan.expireDay * 24 * 60 * 60 * 1000);
         // 更新使用者點數
         user.superCoin -= taskTrans.superCoin;
@@ -279,7 +280,7 @@ const tasks = {
         user.helperCoin -= taskTrans.helperCoin;
         await user.save();
         const currentDate = Date.now();
-        const plan = await Plan.findOne({title: exposurePlan}, { _id: 0, title: 1, price: 1, expireDay: 1, isUrgent: 1 });
+        const plan = await Plan.findOne({ title: exposurePlan }, { _id: 0, title: 1, price: 1, expireDay: 1, isUrgent: 1 });
         const expiredAt = new Date(currentDate + plan.expireDay * 24 * 60 * 60 * 1000);
         // 正式發佈
         const publishTask = await Task.create({
